@@ -5,3 +5,4 @@
 *.jnl
 /secrets.sh
 /haproxy.cfg
+/ssl
