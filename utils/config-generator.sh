@@ -17,7 +17,7 @@ function generate_configs {
 	DASHBOARD_PASSWORD=${DASHBOARD_PASSWORD:=S3CR3T}
 	NSQ_ADMIN_PASSWORD=${NSQ_ADMIN_PASSWORD:=S3CR3T}
 
-	render template/haproxy.cfg > haproxy.cfg
+	render ${HAPROXY_TEMPLATE} > haproxy.cfg
 
 	echo "generate_configs finished"
 }
