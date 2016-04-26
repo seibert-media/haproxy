@@ -9,6 +9,8 @@ function generate_configs {
 		echo "WARNING: secrets.sh not found. using default secrets"
 	fi
 
+	HAPROXY_TEMPLATE=${HAPROXY_TEMPLATE:=template/haproxy.cfg}
+
 	STATS_PASSWORD=${STATS_PASSWORD:=S3CR3T}
 	PROMETHEUS_PASSWORD=${PROMETHEUS_PASSWORD:=S3CR3T}
 	APTLY_API_PASSWORD=${APTLY_API_PASSWORD:=S3CR3T}

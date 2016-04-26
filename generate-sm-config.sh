@@ -6,12 +6,13 @@ set -o pipefail
 
 ################################################################################
 
+HAPROXY_TEMPLAT="template/haproxy-sm.cfg"
+
 K8S_ENDPOINT_0="172.16.11.20"
 K8S_ENDPOINT_1="172.16.11.21"
 K8S_ENDPOINT_2="172.16.11.22"
 
-BB_EXTERN="tools.seibert-media.net"
-HL_EXTERN="tools.seibert-media.net"
+EXTERN="tools.seibert-media.net"
 
 ################################################################################
 
