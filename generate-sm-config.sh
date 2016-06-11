@@ -8,9 +8,9 @@ set -o pipefail
 
 HAPROXY_TEMPLATE="template/haproxy-sm.cfg"
 
-K8S_ENDPOINT_0="172.16.11.20"
-K8S_ENDPOINT_1="172.16.11.21"
-K8S_ENDPOINT_2="172.16.11.22"
+K8S_ENDPOINT_0="172.16.11.15"
+K8S_ENDPOINT_1="172.16.11.16"
+K8S_ENDPOINT_2="172.16.11.17"
 
 EXTERN="tools.seibert-media.net"
 
