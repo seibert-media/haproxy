@@ -4,7 +4,7 @@ My current Haproxy configuration
 
 ## Copyright and license
 
-    Copyright (c) 2016, Benjamin Borbe <bborbe@rocketnews.de>
+    Copyright (c) 2016, Benjamin Borbe <bborbe@seibert-media.net>
     All rights reserved.
     
     Redistribution and use in source and binary forms, with or without
