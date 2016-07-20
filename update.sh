@@ -5,5 +5,5 @@ set -o nounset
 set -o pipefail
 
 git pull
-./generate-config.sh
+./generate.sh
 /etc/init.d/haproxy reload
